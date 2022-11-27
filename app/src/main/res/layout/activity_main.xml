@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hotel Reservation App"
+        android:layout_weight="1"
+        android:textSize="30dp"
+        android:gravity="center" />
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        app:srcCompat="@drawable/suite" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Delux Double Bedroom Suite"
+        android:textSize="24dp"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAR 500"
+        android:textSize="24dp"
+        android:gravity="center_horizontal"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center">
+        <Button
+            android:id="@+id/minusBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="-"
+            android:textSize="30dp"
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/numberOfRooms"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="100"
+            android:inputType="number"
+            android:gravity="center"
+            android:text="0"
+            />
+        <Button
+            android:id="@+id/plusBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="+"
+            android:textSize="20dp"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:id="@+id/bookBtn"
+            android:text="BOOK"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
