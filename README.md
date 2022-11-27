@@ -1,4 +1,4 @@
-# Hotel form App
+# Hotel Form App
 A simple app that takes the number of rooms as an input, and displays the reservation info in the second activity.
 
 
